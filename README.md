@@ -15,7 +15,9 @@ TXT file can accept only this formatting
 
 
 Turns this:
+
 ![1](https://github.com/jxfuller1/Create_Settings_UI_PyQt5/assets/123666150/2b2e9bce-8591-4772-a936-ef03cb57083a)
 
 Into this:
+
 ![2](https://github.com/jxfuller1/Create_Settings_UI_PyQt5/assets/123666150/e9b275e6-a07b-48ee-8dde-7b5120efffb5)
