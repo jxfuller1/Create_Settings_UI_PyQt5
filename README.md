@@ -1,7 +1,8 @@
 Program Will add UI elements based on a TXT File
 
 - Use create_options_UI() Function to create the elements - Returns a QWidget() with all the UI elements
-     a) contains parameters for customizing alignments/fonts/stretches for the layouts
+
+  a) contains parameters for customizing alignments/fonts/stretches for the layouts
 
 - Use getAllElements() to get all widgets to create signal connections in main program
 
