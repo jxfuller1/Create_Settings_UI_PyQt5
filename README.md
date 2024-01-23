@@ -1,0 +1,11 @@
+Program Will add UI elements based on a TXT File
+
+- Use create_options_UI() Function to create the elements - Returns a QWidget() with all the UI elements
+- Use getAllElements() to get all widgets to create signal connections in main program
+
+TXT file can accept only this formatting
+
+1) name = x, y or z                ->   returns QLineEdits() if STR, QSpinBoxes if INT/FLOAT
+2) name = (x, y, TRUE/FALSE, z)    ->   returns GroupBox() w/ QRadioButtons()   (true will be the radiobutton checked)
+3) name = TRUE/FALSE               ->   returns QCheckBox()  w/ True/False as checkstate()
+4) name = [[x, y, z, INT]]         ->   returns QCombobox()  w/ INT as the currentindex() 
